@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: ir-",
+      "code": "ENOENT",
+      "stack": "Error: not found: ir-\n    at getNotFoundError (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:41517:51)\n    at Function.whichSync [as sync] (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:41594:13)\n    at getCommandAbsolutePathSync (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:43159:44)\n    at default_1 (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:43168:32)\n    at /Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:171981:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/jean/prj/me/go-board",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: ir-",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: ir-\n    at getNotFoundError (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:41517:51)\n    at Function.whichSync [as sync] (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:41594:13)\n    at getCommandAbsolutePathSync (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:43159:44)\n    at default_1 (/Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:43168:32)\n    at /Users/jean/.nvm/versions/node/v16.13.0/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.1/node_modules/pnpm/dist/pnpm.cjs:171981:39"
+    }
+  }
+}
